@@ -1,18 +1,17 @@
 <div class="panel panel-default">
-  
+
   <div class="panel-heading">
     <h1>Show Pin</h2>
   </div>
   <div class="panel-body">
-    <p id="notice"><%= notice %></p>
-
+    <%= image_tag @pin.image.url %>
     <p>
       <strong>Description:</strong>
       <%= @pin.description %>
     </p>
   </div>
-  
-  <div class="panel-footer">    
+
+  <div class="panel-footer">
     <% if @pin.user == current_user %>
       <%= link_to 'Edit', edit_pin_path(@pin) %> |
     <% end %>
