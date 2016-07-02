@@ -23,6 +23,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # added devise gem
 gem 'devise', '~> 4.0.0'
+gem 'will_paginate'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
