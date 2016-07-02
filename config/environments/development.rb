@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Required for Devise
+  config.action_mailer.default_url_options = { host: 'white-firefly-195604.nitrousapp.com', port: 3000 }
+
 end
