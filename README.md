@@ -2,4 +2,4 @@
 
 This is the pinteresting sample application for [*One Month Rails*](http://onemonthrails.com)
 
-by Brian Lynch]
+by [Brian Lynch](http://www.qenisis.com)
